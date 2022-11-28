@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Musikschule Bert Lippert</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="header">
+        
+        <a href="index.html"><img class="logo" src="images/bl3.png" alt="logo" /></a>
+        <div class="logos">Gitarrenstudio<br>Bert Lippert</div>
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Unterricht</a></li>
+                    <li><a href="#">Aktuelles</a></li>
+                    <li><a href="#">Über mich</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+    <div class="container2">
+        <form onsubmit="sendEmail(); reset(); return false">
+            <h3>Kontaktieren Sie mich</h3>
+            <input type="text" id="name" placeholder="Ihr Name" required=required />
+            <input type="email" id="email" placeholder="E-Mail Adresse" required=required />
+            <input type="tel" id="phone" placeholder="Ihre Telefonnummer" required=required />
+            <textarea id="message" rows="4" placeholder="Wie kann ich Ihnen helfen?" re=re></textarea>
+            <button type="submit">Senden</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
